@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD2889BE1A00F865004844E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2889BD1A00F865004844E4 /* main.m */; };
+		BD2889C11A00F865004844E4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2889C01A00F865004844E4 /* AppDelegate.m */; };
+		BD2889C41A00F865004844E4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2889C31A00F865004844E4 /* ViewController.m */; };
+		BD2889C71A00F865004844E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD2889C51A00F865004844E4 /* Main.storyboard */; };
+		BD2889C91A00F865004844E4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD2889C81A00F865004844E4 /* Images.xcassets */; };
+		BD2889CC1A00F865004844E4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD2889CA1A00F865004844E4 /* LaunchScreen.xib */; };
+		BD2889D81A00F865004844E4 /* myNotePadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2889D71A00F865004844E4 /* myNotePadTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD2889D21A00F865004844E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD2889B01A00F865004844E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD2889B71A00F865004844E4;
+			remoteInfo = myNotePad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD2889B81A00F865004844E4 /* myNotePad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myNotePad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD2889BC1A00F865004844E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD2889BD1A00F865004844E4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BD2889BF1A00F865004844E4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BD2889C01A00F865004844E4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BD2889C21A00F865004844E4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BD2889C31A00F865004844E4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BD2889C61A00F865004844E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD2889C81A00F865004844E4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BD2889CB1A00F865004844E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BD2889D11A00F865004844E4 /* myNotePadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myNotePadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD2889D61A00F865004844E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD2889D71A00F865004844E4 /* myNotePadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myNotePadTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD2889B51A00F865004844E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD2889CE1A00F865004844E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD2889AF1A00F865004844E4 = {
+			isa = PBXGroup;
+			children = (
+				BD2889BA1A00F865004844E4 /* myNotePad */,
+				BD2889D41A00F865004844E4 /* myNotePadTests */,
+				BD2889B91A00F865004844E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD2889B91A00F865004844E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD2889B81A00F865004844E4 /* myNotePad.app */,
+				BD2889D11A00F865004844E4 /* myNotePadTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD2889BA1A00F865004844E4 /* myNotePad */ = {
+			isa = PBXGroup;
+			children = (
+				BD2889BF1A00F865004844E4 /* AppDelegate.h */,
+				BD2889C01A00F865004844E4 /* AppDelegate.m */,
+				BD2889C21A00F865004844E4 /* ViewController.h */,
+				BD2889C31A00F865004844E4 /* ViewController.m */,
+				BD2889C51A00F865004844E4 /* Main.storyboard */,
+				BD2889C81A00F865004844E4 /* Images.xcassets */,
+				BD2889CA1A00F865004844E4 /* LaunchScreen.xib */,
+				BD2889BB1A00F865004844E4 /* Supporting Files */,
+			);
+			path = myNotePad;
+			sourceTree = "<group>";
+		};
+		BD2889BB1A00F865004844E4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD2889BC1A00F865004844E4 /* Info.plist */,
+				BD2889BD1A00F865004844E4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BD2889D41A00F865004844E4 /* myNotePadTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD2889D71A00F865004844E4 /* myNotePadTests.m */,
+				BD2889D51A00F865004844E4 /* Supporting Files */,
+			);
+			path = myNotePadTests;
+			sourceTree = "<group>";
+		};
+		BD2889D51A00F865004844E4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD2889D61A00F865004844E4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD2889B71A00F865004844E4 /* myNotePad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD2889DB1A00F865004844E4 /* Build configuration list for PBXNativeTarget "myNotePad" */;
+			buildPhases = (
+				BD2889B41A00F865004844E4 /* Sources */,
+				BD2889B51A00F865004844E4 /* Frameworks */,
+				BD2889B61A00F865004844E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = myNotePad;
+			productName = myNotePad;
+			productReference = BD2889B81A00F865004844E4 /* myNotePad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD2889D01A00F865004844E4 /* myNotePadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD2889DE1A00F865004844E4 /* Build configuration list for PBXNativeTarget "myNotePadTests" */;
+			buildPhases = (
+				BD2889CD1A00F865004844E4 /* Sources */,
+				BD2889CE1A00F865004844E4 /* Frameworks */,
+				BD2889CF1A00F865004844E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD2889D31A00F865004844E4 /* PBXTargetDependency */,
+			);
+			name = myNotePadTests;
+			productName = myNotePadTests;
+			productReference = BD2889D11A00F865004844E4 /* myNotePadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD2889B01A00F865004844E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = ZitongHe;
+				TargetAttributes = {
+					BD2889B71A00F865004844E4 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					BD2889D01A00F865004844E4 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = BD2889B71A00F865004844E4;
+					};
+				};
+			};
+			buildConfigurationList = BD2889B31A00F865004844E4 /* Build configuration list for PBXProject "myNotePad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD2889AF1A00F865004844E4;
+			productRefGroup = BD2889B91A00F865004844E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD2889B71A00F865004844E4 /* myNotePad */,
+				BD2889D01A00F865004844E4 /* myNotePadTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD2889B61A00F865004844E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD2889C71A00F865004844E4 /* Main.storyboard in Resources */,
+				BD2889CC1A00F865004844E4 /* LaunchScreen.xib in Resources */,
+				BD2889C91A00F865004844E4 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD2889CF1A00F865004844E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD2889B41A00F865004844E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD2889C41A00F865004844E4 /* ViewController.m in Sources */,
+				BD2889C11A00F865004844E4 /* AppDelegate.m in Sources */,
+				BD2889BE1A00F865004844E4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD2889CD1A00F865004844E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD2889D81A00F865004844E4 /* myNotePadTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD2889D31A00F865004844E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD2889B71A00F865004844E4 /* myNotePad */;
+			targetProxy = BD2889D21A00F865004844E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD2889C51A00F865004844E4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD2889C61A00F865004844E4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BD2889CA1A00F865004844E4 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD2889CB1A00F865004844E4 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD2889D91A00F865004844E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BD2889DA1A00F865004844E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD2889DC1A00F865004844E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = myNotePad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BD2889DD1A00F865004844E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = myNotePad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BD2889DF1A00F865004844E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = myNotePadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/myNotePad.app/myNotePad";
+			};
+			name = Debug;
+		};
+		BD2889E01A00F865004844E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = myNotePadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/myNotePad.app/myNotePad";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD2889B31A00F865004844E4 /* Build configuration list for PBXProject "myNotePad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD2889D91A00F865004844E4 /* Debug */,
+				BD2889DA1A00F865004844E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD2889DB1A00F865004844E4 /* Build configuration list for PBXNativeTarget "myNotePad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD2889DC1A00F865004844E4 /* Debug */,
+				BD2889DD1A00F865004844E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BD2889DE1A00F865004844E4 /* Build configuration list for PBXNativeTarget "myNotePadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD2889DF1A00F865004844E4 /* Debug */,
+				BD2889E01A00F865004844E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD2889B01A00F865004844E4 /* Project object */;
+}
