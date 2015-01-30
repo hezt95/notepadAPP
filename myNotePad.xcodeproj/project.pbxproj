@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		BD2889BE1A00F865004844E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2889BD1A00F865004844E4 /* main.m */; };
 		BD2889C11A00F865004844E4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2889C01A00F865004844E4 /* AppDelegate.m */; };
-		BD2889C41A00F865004844E4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2889C31A00F865004844E4 /* ViewController.m */; };
-		BD2889C71A00F865004844E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD2889C51A00F865004844E4 /* Main.storyboard */; };
 		BD2889C91A00F865004844E4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD2889C81A00F865004844E4 /* Images.xcassets */; };
 		BD2889CC1A00F865004844E4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD2889CA1A00F865004844E4 /* LaunchScreen.xib */; };
 		BD2889D81A00F865004844E4 /* myNotePadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2889D71A00F865004844E4 /* myNotePadTests.m */; };
+		BD2889E31A013A85004844E4 /* EditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2889E21A013A85004844E4 /* EditViewController.m */; };
+		BD3AA30B1A0239BA00E63928 /* rootTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD3AA30A1A0239BA00E63928 /* rootTableViewController.m */; };
+		BD9CED591A03A464007B872E /* addViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD9CED581A03A464007B872E /* addViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +33,17 @@
 		BD2889BD1A00F865004844E4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BD2889BF1A00F865004844E4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BD2889C01A00F865004844E4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BD2889C21A00F865004844E4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		BD2889C31A00F865004844E4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		BD2889C61A00F865004844E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BD2889C81A00F865004844E4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BD2889CB1A00F865004844E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		BD2889D11A00F865004844E4 /* myNotePadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myNotePadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD2889D61A00F865004844E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD2889D71A00F865004844E4 /* myNotePadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myNotePadTests.m; sourceTree = "<group>"; };
+		BD2889E11A013A85004844E4 /* EditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditViewController.h; sourceTree = "<group>"; };
+		BD2889E21A013A85004844E4 /* EditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditViewController.m; sourceTree = "<group>"; };
+		BD3AA3091A0239BA00E63928 /* rootTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rootTableViewController.h; sourceTree = "<group>"; };
+		BD3AA30A1A0239BA00E63928 /* rootTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = rootTableViewController.m; sourceTree = "<group>"; };
+		BD9CED571A03A464007B872E /* addViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = addViewController.h; sourceTree = "<group>"; };
+		BD9CED581A03A464007B872E /* addViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = addViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,9 +87,12 @@
 			children = (
 				BD2889BF1A00F865004844E4 /* AppDelegate.h */,
 				BD2889C01A00F865004844E4 /* AppDelegate.m */,
-				BD2889C21A00F865004844E4 /* ViewController.h */,
-				BD2889C31A00F865004844E4 /* ViewController.m */,
-				BD2889C51A00F865004844E4 /* Main.storyboard */,
+				BD3AA3091A0239BA00E63928 /* rootTableViewController.h */,
+				BD3AA30A1A0239BA00E63928 /* rootTableViewController.m */,
+				BD9CED571A03A464007B872E /* addViewController.h */,
+				BD9CED581A03A464007B872E /* addViewController.m */,
+				BD2889E11A013A85004844E4 /* EditViewController.h */,
+				BD2889E21A013A85004844E4 /* EditViewController.m */,
 				BD2889C81A00F865004844E4 /* Images.xcassets */,
 				BD2889CA1A00F865004844E4 /* LaunchScreen.xib */,
 				BD2889BB1A00F865004844E4 /* Supporting Files */,
@@ -199,7 +206,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD2889C71A00F865004844E4 /* Main.storyboard in Resources */,
 				BD2889CC1A00F865004844E4 /* LaunchScreen.xib in Resources */,
 				BD2889C91A00F865004844E4 /* Images.xcassets in Resources */,
 			);
@@ -219,7 +225,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD2889C41A00F865004844E4 /* ViewController.m in Sources */,
+				BD9CED591A03A464007B872E /* addViewController.m in Sources */,
+				BD2889E31A013A85004844E4 /* EditViewController.m in Sources */,
+				BD3AA30B1A0239BA00E63928 /* rootTableViewController.m in Sources */,
 				BD2889C11A00F865004844E4 /* AppDelegate.m in Sources */,
 				BD2889BE1A00F865004844E4 /* main.m in Sources */,
 			);
@@ -244,14 +252,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		BD2889C51A00F865004844E4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BD2889C61A00F865004844E4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BD2889CA1A00F865004844E4 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -344,6 +344,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = myNotePad/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -354,6 +355,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = myNotePad/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -412,6 +414,7 @@
 				BD2889DD1A00F865004844E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BD2889DE1A00F865004844E4 /* Build configuration list for PBXNativeTarget "myNotePadTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +423,7 @@
 				BD2889E01A00F865004844E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
